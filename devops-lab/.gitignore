@@ -1,0 +1,24 @@
+# VS Code
+.vscode/*.code-workspace
+.vscode/settings.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.env
+*.venv
+.env
+*.egg-info/
+*.pytest_cache/
+*.mypy_cache/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+*.tfplan
+
+# AWS
+*.pem
+.aws/
