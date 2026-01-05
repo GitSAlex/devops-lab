@@ -18,7 +18,10 @@ __pycache__/
 .terraform/
 crash.log
 *.tfplan
+terraform.tfvars
 
 # AWS
 *.pem
+*.key
+*.env
 .aws/
