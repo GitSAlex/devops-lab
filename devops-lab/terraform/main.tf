@@ -90,3 +90,13 @@ resource "aws_instance" "node_b" {
     name = "NodeB"
   }
 }
+
+terraform {
+    backend "s3" {
+    bucket = "s3-bucket-demo-p1"
+    key = "LockID"
+    region = "eu-west-1"
+    dynamodb_table = "s3-dynodb-demo-p1-lock"
+    encrypt = true
+  }
+}

@@ -19,6 +19,9 @@ __pycache__/
 crash.log
 *.tfplan
 terraform.tfvars
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
 
 # AWS
 *.pem
