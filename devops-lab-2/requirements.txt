@@ -1,0 +1,7 @@
+rich
+pyfiglet
+prompt-toolkit
+boto3
+requests
+python-dotenv
+openai
